@@ -1,0 +1,3 @@
+-- Active: 1685654626849@@127.0.0.1@3306@dskdb
+
+CREATE TABLE test(c1 INT,c2 FLOAT,c3 VARCHAR(34));

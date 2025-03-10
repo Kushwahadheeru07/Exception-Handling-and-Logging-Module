@@ -1,0 +1,5 @@
+C:\Users\Dheerendra Kushwaha\anaconda3
+C:\Users\Dheerendra Kushwaha\anaconda3\envs\env
+C:\Users\Dheerendra Kushwaha\anaconda3\envs\venv
+C:\Users\Dheerendra Kushwaha\anaconda3\envs\myenv
+C:\Users\Dheerendra Kushwaha\anaconda3\envs\catdog

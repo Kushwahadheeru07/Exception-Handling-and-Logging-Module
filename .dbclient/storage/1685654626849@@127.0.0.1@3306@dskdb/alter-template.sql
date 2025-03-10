@@ -1,0 +1,3 @@
+-- Active: 1685654626849@@127.0.0.1@3306@dskdb
+
+ALTER TABLE test ADD COLUMN [type] COMMENT '' AFTER `c1`;

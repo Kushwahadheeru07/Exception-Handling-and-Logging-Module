@@ -1,0 +1,479 @@
+2023-06-02 02:53:46 Creating MySQL connection for 1685654626849
+2023-06-02 02:53:46 Closing conneciton 1685654626849
+2023-06-02 02:54:09 Creating MySQL connection for 1685654626849
+2023-06-02 02:54:09 Creating MySQL connection for 1685654626849_tree
+2023-06-02 02:55:08 Execute sql fail : CREATE TABLE test(c1 INT,c2 FLOAT,c3 VARCHAR(34);
+2023-06-02 02:55:08 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Bm.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.4.7\out\extension.js:54144:47)
+    at Bc.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.4.7\out\extension.js:55638:19)
+    at np.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.4.7\out\extension.js:60219:21)
+    at tc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.4.7\out\extension.js:60043:14)
+    at tc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.4.7\out\extension.js:54263:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.4.7\out\extension.js:60045:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-07-09 21:12:01 Creating MySQL connection for 1685654626849_tree
+2023-07-09 21:12:32 The session is close, you need login again!
+2023-07-09 21:12:50 Closing conneciton 1685654626849_tree
+2023-08-02 10:11:46 Creating MySQL connection for 1690951306522
+2023-08-02 10:11:46 Closing conneciton 1690951306522
+2023-08-02 10:11:59 Creating MySQL connection for 1690951319923
+2023-08-02 10:11:59 Closing conneciton 1690951319923
+2023-08-02 10:12:12 Creating MySQL connection for 1690951332212
+2023-08-02 10:12:12 Closing conneciton 1690951332212
+2023-08-02 10:12:14 Creating MySQL connection for 1690951334579
+2023-08-02 10:12:14 Closing conneciton 1690951334579
+2023-08-24 21:02:20 Creating MySQL connection for 1692891140792
+2023-08-24 21:02:20 Closing conneciton 1692891140792
+2023-08-24 21:02:40 Creating MySQL connection for 1692891140792
+2023-08-24 21:02:44 Creating MySQL connection for 1692891140792_tree
+2023-08-24 21:07:59 Execute sql fail : CREATE DATABASE student
+    (roll_number CHAR(10),name CHAR(10),age NUMBER(3),address CHAR(10));
+2023-08-24 21:07:59 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(roll_number CHAR(10),name CHAR(10),age NUMBER(3),address CHAR(10))' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:08:14 Execute sql fail : CREATE DATABASE student
+    roll_number CHAR(10),name CHAR(10),age NUMBER(3),address CHAR(10);
+2023-08-24 21:08:14 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'roll_number CHAR(10),name CHAR(10),age NUMBER(3),address CHAR(10)' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:08:46 Execute sql fail : CREATE DATABASE student
+    (roll_number CHAR(10),name CHAR(10),age NUMBER(3),address CHAR(10));
+2023-08-24 21:08:46 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(roll_number CHAR(10),name CHAR(10),age NUMBER(3),address CHAR(10))' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:09:25 Execute sql fail : CREATE DATABASE 
+    DEFAULT CHARACTER SET = 'utf8mb4';
+2023-08-24 21:09:25 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DEFAULT CHARACTER SET = 'utf8mb4'' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:09:26 Execute sql fail : CREATE DATABASE 
+    DEFAULT CHARACTER SET = 'utf8mb4';
+2023-08-24 21:09:26 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DEFAULT CHARACTER SET = 'utf8mb4'' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:10:04 Execute sql fail : CREATE DATABASE 
+    age NUMBER(10);
+2023-08-24 21:10:04 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(10)' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:11:14 Execute sql fail : CREATE DATABASE 
+   ( age NUMBER(10));
+2023-08-24 21:11:14 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( age NUMBER(10))' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:12:54 Execute sql fail : CREATE DATABASE 
+   age NUMBER(10);
+2023-08-24 21:12:54 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(10)' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:13:09 Execute sql fail : CREATE DATABASE 
+   age 'NUMBER(10)';
+2023-08-24 21:13:09 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''NUMBER(10)'' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:19:35 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:19:35 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:20:12 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:20:12 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:20:13 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:20:13 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:20:14 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:20:14 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:20:14 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:20:14 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:20:14 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:20:14 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:20:14 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:20:14 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:20:15 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:20:15 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:05 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:05 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:07 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:07 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:07 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:07 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:08 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:08 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:08 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:08 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:08 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:08 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:08 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:08 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:24:08 Execute sql fail : CREATE TABLE student(roll_number CHAR(20),Name CHAR(15),Age NUMBER(3),Address CHAR(20),Class CHAR(15));
+2023-08-24 21:24:08 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NUMBER(3),Address CHAR(20),Class CHAR(15))' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 21:26:15 Execute sql fail : CREATE DATABASE 
+    DEFAULT CHARACTER SET = 'utf8mb4';
+2023-08-24 21:26:15 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DEFAULT CHARACTER SET = 'utf8mb4'' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 22:02:48 Creating MySQL connection for 1692891140792_tree
+2023-08-24 22:03:10 Creating MySQL connection for 1692891140792
+2023-08-24 22:03:10 Execute sql fail : CREATE TABLE users (
+id int,
+first_name varchar(255),
+surname varchar(255),
+address varchar(255),
+contact_number int
+);
+2023-08-24 22:03:10 Error: No database selected
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 22:03:34 Execute sql fail : CREATE DATABASE 
+    CREATE TABLE users (
+id int,
+first_name varchar(255),
+surname varchar(255),
+address varchar(255),
+contact_number int
+);
+2023-08-24 22:03:34 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE users (
+id int,
+first_name varchar(255),
+surname varchar(255),
+addr' at line 2
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 22:03:55 Execute sql fail : CREATE DATABASE (
+id int,
+first_name varchar(255),
+surname varchar(255),
+address varchar(255),
+contact_number int
+);
+2023-08-24 22:03:55 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+id int,
+first_name varchar(255),
+surname varchar(255),
+address varchar(255),
+c' at line 1
+    at DT.asError (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69122:47)
+    at Fu.execute (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:70616:19)
+    at um.handlePacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75200:21)
+    at zc.onPacket (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75024:14)
+    at zc.executeStart (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:69241:73)
+    at Socket.<anonymous> (c:\Users\Dheerendra Kushwaha\.vscode\extensions\cweijan.vscode-mysql-client2-6.7.0\out\extension.js:75026:118)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-08-24 22:14:07 Closing conneciton 1692891140792_tree
+2023-08-24 22:14:07 Closing conneciton 1692891140792
+2023-08-24 22:14:20 Creating MySQL connection for 1692895460646
+2023-08-24 22:14:20 Closing conneciton 1692895460646
+2023-08-24 22:14:28 Creating MySQL connection for 1692891140792_tree
+2024-04-18 02:42:40 Resource server started on port 8829
+2024-04-18 02:42:40 Resource server started on port 8830
+2024-04-18 02:43:12 Resource server started on port 8829
+2024-04-18 02:58:10 Resource server started on port 8828
+2024-04-30 06:29:11 Resource server started on port 8828
+2024-05-04 11:47:05 Resource server started on port 8828
+2024-06-04 19:41:16 Resource server started on port 8828
+2024-06-04 19:44:24 Resource server started on port 8828
+2024-06-04 19:44:51 Resource server started on port 8828
+2024-06-05 01:41:44 Resource server started on port 8828
+2024-06-05 01:56:10 Resource server started on port 8828
+2024-06-05 03:34:58 Resource server started on port 8828
+2024-07-05 20:22:53 Resource server started on port 8828
+2024-07-05 20:22:53 Resource server started on port 8829
+2024-07-05 20:24:57 Resource server started on port 8828
+2024-08-02 13:07:07 Resource server started on port 8828
+2024-08-02 13:57:05 Resource server started on port 8828
+2024-08-02 13:58:33 Resource server started on port 8828
+2024-08-03 11:42:34 Resource server started on port 8828
+2024-08-03 11:42:35 Resource server started on port 8828
+2024-08-03 12:23:42 Resource server started on port 8828
+2024-08-03 12:24:55 Resource server started on port 8828
+2024-08-03 12:49:47 Resource server started on port 8828
+2024-08-03 14:04:47 Resource server started on port 8828
+2024-10-22 22:13:30 Resource server started on port 8828

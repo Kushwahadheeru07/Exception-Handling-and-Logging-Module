@@ -1,0 +1,2 @@
+/* 2023-06-02 02:55:31 [17 ms] */ 
+CREATE TABLE test(c1 INT,c2 FLOAT,c3 VARCHAR(34));
